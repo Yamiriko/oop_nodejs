@@ -32,10 +32,10 @@ class Student extends Person {
 }
 
 // Membuat instance dari kelas Person
-let person = new Person("John Doe", 30);
-person.greet(); // Output: Hello, my name is John Doe and I am 30 years old.
+let person = new Person("Tang San", 30);
+person.greet(); // Output: Hello, my name is Tang San and I am 30 years old.
 
 // Membuat instance dari kelas Student
-let student = new Student("Jane Smith", 20, "S12345");
-student.greet(); // Output: Hi, I'm Jane Smith, a student with ID: S12345.
-student.study(); // Output: Jane Smith is studying. Student ID: S12345.
+let student = new Student("Xiaou Wu", 20, "S12345");
+student.greet(); // Output: Hi, I'm Xiaou Wu, a student with ID: S12345.
+student.study(); // Output: Xiaou Wu is studying. Student ID: S12345.
